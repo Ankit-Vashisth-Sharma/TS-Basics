@@ -17,3 +17,14 @@ a16[1] = 1123
 a16[2] = 0x2222
 console.log(a16)
 console.log(a)
+
+export default function linear_search(haystack:number[],needle:number):boolean{
+  for(let i =0;i<haystack.length;i++){
+    if(haystack===needle){
+      return true
+    }
+  }
+  return false
+}
+
+linear_search([1,2,3,4,5,6],5)
