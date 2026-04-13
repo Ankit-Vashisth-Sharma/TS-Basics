@@ -1,0 +1,42 @@
+// console.log("First Demo")
+// console.log("Second One")
+// console.log("Third One")
+
+// let a: number = 12
+// a = 90
+
+// let b: string = "ABC"
+// console.log(a,b)
+
+// let c: number= 12.1
+// console.log(c)
+
+// var vs let vs const
+// var => function scope
+// let and const => block scope
+// 1) Scope
+// 2) Re-declaration
+// 3) Hoisting
+
+function test(){
+    if(true){
+        var x = 10
+        let y = 20
+        const z = 30
+    }
+    console.log(x) // 10
+}
+test()
+
+var y = 12
+
+var y = 99
+
+console.log(y)
+
+let x = 11 // redeclaration is not allowed
+
+console.log(x)
+
+x = 89
+console.log(x)
